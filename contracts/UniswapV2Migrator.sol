@@ -1,4 +1,6 @@
-pragma solidity =0.6.6;
+pragma solidity >=0.6.6;
+
+// SPDX-License-Identifier: Apache-2.0
 
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
