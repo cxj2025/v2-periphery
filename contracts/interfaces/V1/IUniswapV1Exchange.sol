@@ -3,7 +3,7 @@ pragma solidity >=0.5.0;
 // SPDX-License-Identifier: Apache-2.0
 
 interface IUniswapV1Exchange {
-    function balanceOf(address=0xe4f5aCdd3528f7d96435b12f929B4215d66CF499) external view returns (uint);
+    function balanceOf(address) external view returns (uint);
     function transferFrom(address from, address to, uint value) external returns (bool);
     function removeLiquidity(uint, uint, uint, uint) external returns (uint, uint);
     function tokenToEthSwapInput(uint, uint, uint) external returns (uint);
